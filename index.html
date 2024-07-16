@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookrack</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>BookWrack</h1>
+
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+
+            <h2>Rich Dad poor Dad</h2>
+            <h5>robert kiyosaki</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas amet nulla accusamus obcaecati ipsam
+                laborum laboriosam dolorem, error autem exercitationem incidunt praesentium beatae doloremque quos
+                facilis fugit quae reiciendis?</p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+
+
+    </div>
+
+    <div class="popupoverlay"></div>
+    <div class="popupbox" >
+        <h1>Add book</h1>
+        
+        <input type="text" placeholder="book title" id="book-title-input">
+        <input type="text" placeholder="book author" id="book-author-input">
+        <textarea placeholder="book descryption" id="book-descryption-input"></textarea>
+        <button class="add">Add</button>
+        <button class="cancelbtn">Delete</button>
+    
+
+
+    </div>
+
+
+
+
+
+    <div>
+
+
+    <button class="addbtn">+</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
